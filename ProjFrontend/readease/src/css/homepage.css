@@ -1,0 +1,76 @@
+* Homepage */
+.homepage {
+  max-width: 800px;
+  margin: 20px auto; /* Centraliza a homepage */
+  text-align: center;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Saudação e mensagem matinal */
+.homepage h1 {
+  font-size: 24px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.homepage p {
+  font-size: 16px;
+  color: rgb(255, 255, 255);
+  text-align: center;
+}
+
+/* Seção de Notificações */
+.alert-container {
+  color: #f1eeec;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.alert-container h1 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.alert {
+  background-color: #34495e;
+  color: #ecf0f1;
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 5px;
+}
+
+/* Seção do Cartão */
+.cardss-container {
+  background-color: #3498db;
+  color: #ecf0f1;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.cardss-container h1 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+.card-body {
+  text-align: center;
+}
+/* Botão de visualizar reservas */
+.view-reservations-btn {
+  background-color: #2980b9;
+  color: #ecf0f1;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+.view-reservations-btn:hover {
+  background-color: #1a5276;
+}

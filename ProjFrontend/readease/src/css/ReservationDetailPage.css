@@ -1,0 +1,58 @@
+/* ReservationDetailPage.css */
+body {
+  background-color: #2c293d;
+  color: white; /* Adicione uma cor de texto para melhor contraste */
+  margin: 0; /* Remova as margens padrão do corpo */
+  font-family: 'Arial', sans-serif; /* Adicione uma fonte para melhor legibilidade */
+}
+#detail-card{
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  #detail-card h2 {
+    text-align: center;
+    color: #333;
+  }
+  
+  #detail-card p {
+    margin-bottom: 10px;
+  }
+  
+  /* Customize the back button */
+  .btn-back {
+    background-color: #007bff;
+    border-color: #007bff;
+    color: #fff;
+  }
+  
+  .btn-back:hover {
+    background-color: #0056b3;
+    border-color: #0056b3;
+  }
+  
+
+.notes-container {
+  margin-top: 20px;
+}
+
+#notes {
+  width: 70%;
+  height: 150px; /* Ajuste a altura conforme necessário */
+  resize: vertical; /* Permite redimensionamento vertical */
+}
+
+#save-notes-button {
+  background-color: #4CAF50; /* Cor verde */
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#save-notes-button:hover {
+  background-color: #45a049; /* Cor verde mais escura ao passar o mouse */
+}

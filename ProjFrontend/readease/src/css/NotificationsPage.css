@@ -1,0 +1,82 @@
+/* NotificationsPage.css */
+.container{
+  background-color: #2c293d;
+  min-height: 100vh;
+  width: 100%;
+  overflow-x: hidden;
+  text-align: center;
+  justify-content: center; 
+  align-items: center;     
+  flex-direction: column;  
+}
+
+.notifications-container {
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 20px;
+  background-color: #f8f9fa; /* Light background color */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  border-radius: 10px; /* Rounded corners */
+}
+
+/* Style for the page title */
+.notifications-container h1 {
+  text-align: center;
+  color: #2c293d; /* Dark text for contrast */
+  margin-bottom: 30px;
+  font-size: 2.5rem; /* Larger font size */
+}
+
+/* Style for each notification (using Bootstrap Alert component) */
+.alert {
+  padding: 20px;
+  border: none;
+  border-radius: 8px; /* Rounded corners for alerts */
+  margin-bottom: 15px;
+  background-color: #e9ecef; /* Light grey background */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05); /* Slight shadow for each alert */
+}
+
+.alert-heading {
+  font-size: 1.4rem; /* Larger font size for headings */
+  color: #495057; /* Dark grey for readability */
+  margin-bottom: 10px;
+}
+
+/* Style for the alert text */
+.alert p {
+  color: #6c757d; /* Grey text for normal alert messages */
+  margin-bottom: 10px; /* Spacing between paragraphs */
+  font-size: 1rem; /* Standard font size */
+}
+
+/* Button style */
+.alert button {
+  background-color: #007bff; /* Bootstrap primary color */
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px; /* Rounded corners for buttons */
+  font-size: 1rem;
+  transition: background-color 0.3s;
+}
+
+.alert button:hover {
+  background-color: #0056b3; /* Darken button on hover */
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .notifications-container {
+    margin: 20px;
+    padding: 15px;
+  }
+
+  .notifications-container h1 {
+    font-size: 2rem; /* Slightly smaller font size on smaller screens */
+  }
+
+  .alert {
+    padding: 15px;
+  }
+}

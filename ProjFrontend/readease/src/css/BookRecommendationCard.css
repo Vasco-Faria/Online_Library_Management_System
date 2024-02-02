@@ -1,0 +1,76 @@
+
+.bookrec-card {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 3rem;
+    overflow: hidden;
+    transition: box-shadow 0.3s ease-in-out;
+    width: 80%;
+    max-height: 40rem;
+
+  }
+
+  .book-card:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+
+  .card-content {
+    padding: 15px;
+    background-color: #fff;
+  }
+
+  .card-content img {
+    width: 70%;
+    height: auto;
+    border-radius: 4px;
+    display: block;
+    margin: 0 auto;
+    max-height: 25rem;
+    padding-left: 5px;
+  }
+
+
+  .card-content h3 {
+    font-size: 1.2rem;
+    margin: 10px 0;
+  }
+  
+  .card-content p {
+    font-size: 0.9rem;
+    color: #555;
+    margin-bottom: 10px;
+  }
+  
+  .card-actions {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #fff;
+    
+  }
+  
+  .card-actions button {
+    padding: 8px 12px;
+    border: none;
+    border-radius: 4px;
+    background-color: #2c293d;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  .card-actions button:hover {
+    background-color: #fff;
+    color:#2c293d;
+    border: 1px solid  #2c293d;
+  }
+
+  .bookrec-card.weekly-recommendation {
+    margin-bottom: 2.5rem;
+  }
+
+  .card-content a i{
+    cursor: pointer;
+  }

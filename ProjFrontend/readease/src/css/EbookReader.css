@@ -1,0 +1,66 @@
+.ebook-reader-page{
+    background-color: #2c293d;
+    min-height: 100vh;
+    margin: 0;
+    display: flex;
+    overflow-x: hidden;
+    flex-direction: column;
+}
+
+.ebook-title {
+    text-align: center;
+    color: white;
+    width: 100%;
+    padding-top: 2rem;
+    padding-bottom: 3rem;
+}
+
+.ebook-div{
+    width: 100%;
+    text-align: center;
+}
+
+
+
+.ebook-viewer {
+    width: 50%;
+    height: 40rem;
+    border: 1px solid #ddd; 
+    background-color: #fff;
+    overflow-y: auto; 
+    margin: 0 auto;
+}
+
+.navigation-button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: #f0f0f0;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 2rem;
+    border-radius: 50%;
+}
+
+.navigation-button.prev {
+    left: 10%;
+    background-color: #2c293d;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.navigation-button.next {
+    right: 10%;
+    background-color: #2c293d;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.navigation-button:hover{
+    background-color: #fff;
+    color:#2c293d;
+    border: 1px solid  #2c293d;
+}

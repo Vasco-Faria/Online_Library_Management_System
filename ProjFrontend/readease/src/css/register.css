@@ -1,0 +1,67 @@
+/* register.css */
+.register-page {
+    background-color: #2c293d;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .register-container {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    text-align: center;
+    width: 60%; 
+}
+
+
+
+  
+  h1 {
+    color: #2c293d;
+  }
+  
+  .input-group {
+    margin-bottom: 0px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 8px;
+    color: #2c293d;
+  }
+  
+  input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+  }
+  
+  .register-button2 {
+    background-color: #2c293d;
+    color: #fff;
+    padding: 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+  }
+  
+  .register-button2:hover {
+    background-color: #1f1d2b;
+  }
+  
+  /* For smaller screens*/
+@media screen and (max-width: 768px) {
+    .register-container {
+        width: 90%;
+    }
+}
